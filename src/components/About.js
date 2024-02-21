@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import blank from '../assets/blank.pdf'
+import Resume from '../assets/resume.pdf'
 
 export default function About({sec2}) {
 
@@ -44,7 +44,7 @@ export default function About({sec2}) {
             <p>I am a front-end developer looking for exciting opportunities. Has Computer Science Engineering background. Likes to focus on accessibility when developing. Passionate and curious about solving problems. Currently, I’m exploring Reactjs. While I am not programming, I enjoy playing Cricket, photography and playing online games. Learning more to improve skill.</p>
             {!aboutClicked ? <button className='more-btn' onClick={() => setAboutClicked(true)} >MORE ABOUT ME</button> : 
               <div className='explore-more'>
-                  <div className='download-resume'><a href={blank} download>Download Resume<div className='black-dot'></div></a></div>
+                  <div className='download-resume'><a href={Resume} download>Download Resume<div className='black-dot'></div></a></div>
                   <div className='linkedin-logo'><a href='https://www.linkedin.com/in/harikrishna-meesala-145244226/' target='_blank' rel="noreferrer" ><i className="fa fa-linkedin" style={{fontSize: '24px', color: '#D3E97A'}} ></i></a></div>
                   <div className='linkedin-logo'><a href='https://github.com/HariMeesala' target='_blank' rel="noreferrer"><i className="fa fa-github" style={{fontSize: '24px', color: '#D3E97A'}} ></i></a></div>
               </div>

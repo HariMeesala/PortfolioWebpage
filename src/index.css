@@ -128,11 +128,12 @@ main {
 }
 
 .professional-image {
-  width: 500px;
+  width: 400px;
   height: 500px;
   background-image: url("./assets/latest_pic.jpg");
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 10px;
 }
 

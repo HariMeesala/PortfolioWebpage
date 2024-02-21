@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Resume from "../assets/blank.pdf"
+import Resume from "../assets/resume.pdf"
 
 export default function Contact({sec3}) {
   return (
